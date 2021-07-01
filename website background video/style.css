@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.container{
+    height:100vh;
+    padding-right:5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+.video-bg{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    min-width: 100%;
+    min-height: 100%;
+    width:100px;
+    height:100px;
+    z-index: -5;
+}
+.navbar{
+    width:100%;
+    height:15vh;
+    margin:auto;
+    display:flex;
+    align-items: center;
+}
+h3{
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1cm;
+    color:white;
+    text-transform: uppercase;
+}
+h3 span{
+    color:orange;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+nav{
+      display:flex;
+    align-items:center;
+   }
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    border-bottom: 2px solid orange;
+    padding-bottom:3px;
+    color:white;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: 600;
+}
+.btn{
+    background: transparent;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border:3px solid orange;
+    cursor:pointer;
+    font-size: 17px;
+    color:white;
+    font-weight: 700;
+    padding:15px 20px;
+    margin:10px;
+    text-decoration: none;
+    box-shadow: 4px 2px 22px black;
+
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    /* letter-spacing:1cm; */
+    font-size: 30px;
+    color:white;
+    margin-top: 100px;
+}
+h2 span{
+    color:orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size:25px;
+    font-weight: 500;
+    letter-spacing:1px;
+    margin-top:35px;
+    color:white;
+}
+
+content-2{
+    align-items: center;
+    display:flex;
+}
+
+.btn-2{
+    background: linear-gradient(to bottom,white);
+    margin-top: 30px;
+    text-align:center;
+    padding:15px 45px;
+    transition: all 5s;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+    color:black;
+    cursor:pointer;
+    font-weight: 700;
+    font-size:22px;
+    display:block;
+    border-radius:10px;
+    background-size:200% auto;
+    box-shadow:3px 8px 22px black;
+}
+.btn-2 :hover{
+    transform: scale(1,1);
+    transition: all 5s;
+
+}
+.btn-2 .style{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:orange;
+    font-size:22px;
+    letter-spacing:1px;
+
+}
+.Social-media{
+    margin-top:30px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+
+
+}
+.fab{
+    color:orange;
+    padding:10px 15px 20px 12px;
+    border-radius:10px;
+    background-color:white;
+    height:25px;
+    width:25px;
+    text-align:center;
+    box-shadow:8px 8px 22px black;
+    margin:5px;
+}
+a i{
+       font-size:30px;   
+}
+.fab:hover{
+    transform: scale(1,1);
+    color:white;
+    background-color:orange;
+    transition:all 2s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
